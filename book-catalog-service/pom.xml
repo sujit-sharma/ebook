@@ -5,6 +5,8 @@
     <groupId>com.sujit</groupId>
     <artifactId>book-catalog-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+    </dependencies>
     <parent>
         <groupId>com.sujit</groupId>
         <artifactId>ebook-parent</artifactId>
