@@ -1,6 +1,5 @@
-package com.sujit.bookcatalogservice.models;
+package com.sujit.bookinfoservice.models;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Book {
+public class Rating {
     private String bookId;
-    private String name;
+    private int rating;
 }

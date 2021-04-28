@@ -14,9 +14,8 @@ import java.util.List;
 public class BookInfoResource {
 
     @GetMapping("/{bookId}")
-    public List<Book> getBookInfo(@PathVariable("bookId") String bookId) {
-       List<Book> books = new ArrayList<>();
-       books.add(new Book("java", "Java World"));
-       return books;
+    public Book getBookInfo(@PathVariable("bookId") String bookId) {
+       return (new Book("java", "Java World"));
+
     }
 }

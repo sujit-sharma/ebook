@@ -20,7 +20,7 @@
     <name>ebook-parent</name>
     <description>Demo project for Spring Boot</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
         <mavan.compiler.source>${java.version}</mavan.compiler.source>
         <mavan.compiler.target>${java.version}</mavan.compiler.target>
     </properties>
@@ -28,6 +28,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
 
         <dependency>
@@ -41,6 +45,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 
     <build>
         <plugins>
